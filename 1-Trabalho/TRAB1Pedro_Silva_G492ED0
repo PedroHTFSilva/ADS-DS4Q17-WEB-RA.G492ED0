@@ -1,0 +1,71 @@
+// HTML5: Conceito e Utilização
+HTML é a sigla para HyperText Markup Language, em português, significa linguagem para marcação de hipertexto.
+Hipertexto é todo texto inserido em um documento para a web e que tem como principal característica a possibilidade de se interligar a outros documentos da web com o uso dos links, presentes nas páginas dos sites que visitamos. Então, todo o conteúdo textual que você vê em uma pagina de um site é um hipertexto, assim como imagens, vídeos, gráficos, sons e conteúdo não textuais em geral são chamados de hipermídia.
+O HTML5 é a quinta revisão da linguagem de marcação padrão usada para estruturar e apresentar conteúdo na World Wide Web. Lançado oficialmente em outubro de 2014, o HTML5 trouxe uma série de recursos e melhorias em relação às versões anteriores, como o HTML 4.01.
+Desde a invenção da web. Em 1992, por Tim Berners-Lee, a HTML evolui por oito versões que são:
+•	HTML
+•	HTML+
+•	HTML2.0
+•	HTML3.0
+•	HTML3.2
+•	HTML4.0
+•	HTML4.01
+•	HTML5.
+
+ A estrutura base do HTML5:
+ <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TITULO PAGINA</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+   <h1> TITULO TEXTO</h1>
+   <h2> SUB TITULO TEXTO </h2>
+    <p> PARÁGRAFO</p>
+    <img src="IMG/unip.jpg" alt="LEGENDA DA IMAGEM" title="DESCRIÇÃO DA IMAGEM">
+    <ol>
+        <li>primeiro</li>
+        <li>segundo</li>
+    </ol>
+</body>
+</html>
+
+Recursos e Utilização Principais do HTML5:
+Semântica Avançada: O HTML5 introduziu uma série de elementos semânticos que ajudam os desenvolvedores a estruturar o conteúdo de maneira mais significativa. Isso inclui elementos como <header>, <nav>, <main>, <section>, <article> e <footer>, que auxiliam na compreensão do significado do conteúdo pelos motores de busca e pela acessibilidade.
+Áudio e Vídeo Nativos: O HTML5 trouxe suporte nativo para reprodução de áudio e vídeo, eliminando a necessidade de plugins como o Adobe Flash. Os elementos <audio> e <video> permitem incorporar mídia diretamente nas páginas, com suporte a diversos formatos de mídia e a capacidade de adicionar legendas e descrições.
+Canvas: A tag <canvas> permite criar gráficos, animações e jogos diretamente no navegador usando JavaScript. Essa funcionalidade é usada para criar elementos visuais complexos e interativos, como gráficos em tempo real e jogos.
+Geolocalização: O HTML5 introduziu uma API de geolocalização que permite aos desenvolvedores acessar a localização do usuário por meio do navegador. Isso é útil para aplicativos que dependem da localização, como serviços de mapas e aplicativos baseados em geolocalização.
+Armazenamento Local: A API Web Storage possibilita armazenar dados localmente no navegador do usuário. Isso é útil para aplicativos que precisam manter informações entre sessões ou funcionar offline.
+Formulários Aprimorados: O HTML5 trouxe melhorias nos elementos de formulário, incluindo validação de entrada nativa, seleção de datas, campos de pesquisa e tipos de entrada personalizados, facilitando a criação de formulários mais interativos.
+Acesso a Dispositivos: O HTML5 permite acessar dispositivos como câmera e microfone por meio da API MediaDevices, abrindo caminho para aplicativos de videoconferência, streaming ao vivo e muito mais.
+Fundamentos de HTML5 e CSS3
+Por Maurício Samy Silva
+
+
+//Motores de Navegador: Conceito, Aplicação e Diferenças
+Os motores de navegador, também chamados de motores de renderização, são componentes essenciais dos navegadores da web que interpretam e processam o código HTML, CSS e JavaScript das páginas da web, transformando-os em interfaces visuais que os usuários podem interagir.
+Cada browser tem a sua frequência de atualização e sincronizar todas essas atualizações é praticamente impossível. 
+Uma maneira mais segura de manter o código compatível, é nivelando o desenvolvimento pelos motores de renderização. Cada browser utiliza um motor de renderização que é responsável pelo processamento do código da página.
+Cada motor tem suas próprias características, comportamentos de renderização e suporte a padrões, o que pode levar a diferenças na experiência do usuário.
+Principais Motores de Navegador:
+Blink (usado no Google Chrome e navegadores baseados no Chromium): O Blink é um motor de renderização de código aberto derivado do WebKit, desenvolvido principalmente pelo Google. É conhecido por sua velocidade e eficiência, além de ser altamente modular. O Google Chrome, o Microsoft Edge (versão baseada no Chromium) e outros navegadores utilizam o Blink.
+WebKit (usado no Safari, até certa versão do Microsoft Edge e outros navegadores): O WebKit é um motor de renderização de código aberto originado da Apple. Ele é usado no navegador Safari da Apple e em alguns outros navegadores. O WebKit também é conhecido por sua ênfase em conformidade com padrões e desempenho.
+Gecko (usado no Mozilla Firefox): O Gecko é o motor de renderização desenvolvido pela Mozilla Foundation e usado no navegador Firefox. É conhecido por seu foco em padrões web, personalização e flexibilidade. A Mozilla é uma defensora ativa dos padrões abertos e da interoperabilidade.
+EdgeHTML (usado no antigo Microsoft Edge): O EdgeHTML foi desenvolvido pela Microsoft para seu navegador antigo, o Microsoft Edge. Ele foi substituído pelo Blink quando a Microsoft adotou o Chromium como base para o novo Microsoft Edge.
+Diferenças e Impacto:
+As diferenças entre os motores de navegador podem afetar a renderização das páginas da web, o desempenho, a compatibilidade com padrões e a experiência geral do usuário. No passado, as diferenças eram mais marcantes, mas os esforços colaborativos e o foco em padrões da web têm trabalhado para reduzir essas disparidades ao longo do tempo. No entanto, ainda pode haver pequenas diferenças na interpretação e exibição de conteúdo em diferentes navegadores. 
+
+Referências
+Mozilla Developer Network (MDN) - Browser Engine: https://developer.mozilla.org/en-US/docs/Glossary/Rendering_engine
+WebKit: https://webkit.org/
+Chromium: https://www.chromium.org/
+Mozilla Developer Network (MDN) - Gecko: https://developer.mozilla.org/en-US/docs/Mozilla/Gecko
+Microsoft Edge Blog - Moving to the Chromium Open Source Project: https://blogs.windows.com/msedgedev/2018/12/06/microsoft-edge-chromium-open-source/
+HTML5 e CSS3
+Com farinha e pimenta.
+Publicado por Diego Eis
+Edição e design: Angela Yonamine
+Pitacos gerais: Diego Eis.
