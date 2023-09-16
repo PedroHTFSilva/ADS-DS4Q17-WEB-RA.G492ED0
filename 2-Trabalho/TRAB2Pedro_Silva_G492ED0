@@ -1,0 +1,57 @@
+Pesquisa sobre Tags HTML5
+
+As tags no HTML5 são elementos fundamentais que servem para estruturar, organizar e dar significado ao conteúdo em uma página da web. 
+Elas são representadas por marcações delimitadas por "<>" (ângulos) e podem conter atributos para fornecer informações adicionais sobre como o conteúdo deve ser exibido ou comportar-se. 
+As tags são a base da linguagem de marcação HTML e desempenham um papel essencial na criação de páginas da web semânticas e interativas.
+
+
+Principais Categorias de Tags HTML5:
+Estrutura Básica:
+
+<html>: Define o elemento raiz do documento HTML.
+<head>: Contém informações sobre o documento, como metadados e links para estilos e scripts.
+<title>: Define o título da página, exibido na aba do navegador.
+<meta>: Fornece metadados sobre o documento, como a codificação de caracteres e descrições.
+<link>: Liga o documento a recursos externos, como folhas de estilo.
+<style>: Insere estilos CSS diretamente no documento.
+
+Estrutura de Conteúdo:
+
+<header>: Define o cabeçalho da página ou seção.
+<nav>: Indica uma seção de navegação.
+<main>: Representa o conteúdo principal do documento.
+<section>: Define uma seção temática dentro do documento.
+<article>: Representa um conteúdo autônomo e independente.
+<aside>: Indica um conteúdo relacionado ou lateral.
+Multimídia:
+
+<img>: Insere uma imagem.
+<video>: Reproduz vídeos.
+<audio>: Reproduz áudios.
+<source>: Define fontes de mídia para elementos de mídia.
+Links e Navegação:
+
+<a>: Cria um link.
+<button>: Cria um botão interativo.
+Listas:
+
+<ul>: Cria uma lista não ordenada.
+<ol>: Cria uma lista ordenada.
+<li>: Define um item de lista.
+Tabelas:
+
+<table>: Cria uma tabela.
+<tr>: Define uma linha de tabela.
+<td>: Define uma célula de dados em uma tabela.
+
+Conclusão:
+As tags HTML5 são os blocos de construção fundamentais para criar páginas da web modernas e semânticas.
+Elas permitem estruturar o conteúdo, incorporar multimídia, criar links e interatividade, e organizar dados em tabelas, entre muitas outras funcionalidades.
+A utilização adequada de tags HTML5 não apenas facilita a criação de páginas visualmente atraentes, mas também melhora a acessibilidade e a indexação por mecanismos de busca.
+
+Fontes bibliográficas:
+MDN Web Docs - HTML: https://developer.mozilla.org/pt-BR/docs/Web/HTML
+W3Schools - HTML5 Tutorial: https://www.w3schools.com/html/default.asp
+HTML5 Doctor: http://html5doctor.com/
+"HTML and CSS: Design and Build Websites" de Jon Duckett
+"HTML5 for Web Designers" de Jeremy Keith 
